@@ -1,0 +1,12 @@
+{
+  "builds": [
+    {
+      "src": "music/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "music/dist" }
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "music/index.html" }
+  ]
+}
