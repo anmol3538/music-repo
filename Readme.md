@@ -15,7 +15,7 @@ A modern music library web application built with React that allows users to bro
 
 ## Live Demo
 
-The application is deployed on Vercel: [https://finactify.vercel.app](https://finactify.vercel.app)
+The application is deployed on Vercel: [https://music-repo-mja8-git-master-anmol-aggarwals-projects.vercel.app](https://music-repo-mja8-git-master-anmol-aggarwals-projects.vercel.app)
 
 ## Technologies 🛠️
 
