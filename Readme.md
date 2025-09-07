@@ -1,51 +1,60 @@
 # Finactify
 
-A music library web application built with React that allows users to browse, search, and filter songs by genre and artist.
+A modern music library web application built with React that allows users to browse, search, and filter songs by genre and artist.
 
-## Features
+![Finactify](https://img.shields.io/badge/React-18.2.0-blue) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC) ![Vercel](https://img.shields.io/badge/Deployed-Vercel-black)
 
-- 🎶 Browse songs by genre (Bollywood, Hollywood, Punjabi, Tamil, Telugu)
-- 🔍 Search songs by name or artist
-- 📑 Pagination support (10 items per page)
-- 📱 Responsive and modern UI with Tailwind CSS
+## Features ✨
 
-## Technologies
+- Browse songs by genre (Bollywood, Hollywood, Punjabi, Tamil, Telugu)
+- Search songs by name or artist
+- Pagination support (10 items per page)
+- Responsive and modern UI with Tailwind CSS
+- Fast and lightweight
+- Beautiful user interface
 
-- React.js ⚛️
-- Tailwind CSS 🎨
-- Axios for API calls 🌐
-- Git & GitHub 🔗
+## Live Demo
 
-## APIs Used
+The application is deployed on Vercel: [https://finactify.vercel.app](https://finactify.vercel.app)
 
-This project uses **JioSaavn Unofficial APIs** for fetching music data.
+## Technologies 🛠️
 
-- 🔍 **Search Songs**  
+- **Frontend Framework**: React.js 
+- **Styling**: Tailwind CSS 
+- **HTTP Client**: Axios for API calls 
+- **Deployment**: Vercel 
+- **Version Control**: Git & GitHub 
+
+## APIs Used 📡
+
+This project uses **JioSaavn Unofficial APIs** for fetching music data:
+
+- **Search Songs**  
   `https://saavn.me/search/songs?query={song_name}&page=1&limit=10`
 
-- 🎤 **Search Artists**  
+- **Search Artists**  
   `https://saavn.me/search/artists?query={artist_name}&page=1&limit=10`
+
+- **Get Songs by Genre**  
+  `https://saavn.me/songs?genre={genre}`
 
 *(Replace `{}` with the actual query or ID in your API calls)*
 
-## Setup
+## Credentials
+-   Just use user mode while logging in the website for getting all songs.
+-   Just use admin mode while logging in the website for adding/deleting all songs.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/anmol3538/music-repo.git
-
-   Navigate to the project folder:
-
-2. cd music-repo
-
-
-3. Install dependencies:
-```npm install
-
-
-4. Start the development server:
-```npm run dev
-
-
-5. Open in your browser:
-```http://localhost:5173
+## Deploy on Vercel
+- Go to vercel.com
+- Click "Sign Up" and create an account (or log in)
+- Click "New Project"
+- Import your GitHub repository
+- Authorize Vercel to access your GitHub account if prompted
+- Select your finactify repository
+- Configure project settings:
+- Framework Preset: Vite
+- Root Directory: music
+- Build Command: npm run build
+- Output Directory: dist
+- Install Command: npm install
+- Click "Deploy"
